@@ -4,7 +4,7 @@
   "description": "A gulp plugin to dump a git tag into html, js, css.",
   "main": "src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/kopfwelt/gulp-git-stamp/issues"
   },
-  "homepage": "https://github.com/kopfwelt/gulp-git-stamp#readme"
+  "homepage": "https://github.com/kopfwelt/gulp-git-stamp#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-fs": "^0.1.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "git-rev": "^0.2.1",
+    "lodash.defaults": "^4.0.1"
+  }
 }
