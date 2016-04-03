@@ -18,7 +18,7 @@ describe('git stamp', function () {
 	before(function () {
 		fileIn = 'test/fixtures/index.html';
 		fileOut = '.tmp/index.html';
-		expected = '<html>test</html><!-- tag:16a043c726f11524438cd2b2a66902a644c6f330 -->';
+		expected = '<html>test</html><!-- tag:0.0.2 -->';
 	});
 
 	after(function (done) {
