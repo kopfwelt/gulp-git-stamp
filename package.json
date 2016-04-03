@@ -1,6 +1,6 @@
 {
   "name": "gulp-git-stamp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A gulp plugin to dump a git tag into html, js, css.",
   "main": "src/index.js",
   "scripts": {
